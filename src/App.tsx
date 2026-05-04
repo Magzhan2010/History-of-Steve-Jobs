@@ -700,7 +700,7 @@ const QuotesCarousel = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent((prev) => (prev + 1) % QUOTES.length);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 
